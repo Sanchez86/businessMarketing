@@ -1,0 +1,509 @@
+﻿/*1750*/
+@media only screen and (max-width: 1750px){
+	/*---index page---*/
+	.parallax{
+		padding-left: 9vw;
+	}
+	/*---endindex page---*/
+}
+/*end 1750*/
+/*1550*/
+@media only screen and (max-width: 1550px){
+	/*---index page---*/
+	.parallax{
+		padding-left: 3vw;
+		padding-right: 3vw;
+	}
+	.parallax .parallax1 {
+		font-size: 23px;
+	}
+	.podat_zayavcu{
+		font-size: 25px;
+		line-height: 60px;
+		padding: 0 25px;
+	}
+	/*---end index page---*/
+}
+/*end 1550*/
+/*1350*/
+@media only screen and (max-width: 1350px){
+	/*---index page---*/
+	.parallax .parallax1 {
+		font-size: 21px;
+	}
+	.parallax .parallax2 {
+		font-size: 28px;
+	}
+	.parallax .parallax3 {
+		font-size: 28px;
+	}
+	.podat_zayavcu {
+		font-size: 23px;
+	}
+	/*---end index page---*/
+}
+/*end 1350*/
+
+/*iPad Pro Horizontal 1366px*/
+@media only screen and (max-width: 1366px){
+	/*---about_me page---*/
+	.about_me_block3 .about_me_content_block div {
+   		text-align: right;
+		margin-top: 55px;
+	}
+	/*---end about_me page---*/
+}
+/*ens iPad Pro Horizontal 1366px*/
+/*custom media 1220px*/
+@media only screen and (max-width: 1230px){
+	/*---index page---*/
+    .sub_pakets {
+		max-width: 1000px;
+	}
+	.paket{
+		width: 300px;
+	}
+	.paket2 {
+		width: 358px;
+	}
+	.paketContent{
+		padding-left: 20px;
+    	padding-right: 20px;
+	}
+	/*---index page---*/
+}
+/*end custom media 1230px*/
+
+/*iPad Horizontal*/
+@media only screen and (max-width: 1200px){
+	/*---index page---*/
+    .oboMneText {
+		padding-left: 40px;
+	}
+	#carousel-example-generic ol li{
+		width: 130px;
+	}
+	.buttons{
+		right: 10%;
+	}
+	/*---end index page---*/
+	/*---about_me page---*/
+	.about_me_content_block p{
+		font-size: 16px;
+	}
+	.about_me_block3 .about_me_content_block div {
+		text-align: right;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	/*---end about_me page---*/
+}
+/*end iPad Horizontal*/
+/*1180*/
+@media only screen and (max-width: 1180px){
+	/*---index page---*/
+	.parallax .parallax1 {
+		font-size: 19px;
+	}
+	.parallax .parallax2 {
+		font-size: 27px;
+	}
+	.parallax .parallax3 {
+		font-size: 27px;
+	}
+	.podat_zayavcu {
+    font-size: 21px;
+}
+	/*---end index page---*/
+}
+/*end 1180*/
+/*992px*/
+@media only screen and (max-width: 992px){
+    /*---index page---*/
+    .oboMneText {
+		padding-left: 15px;
+		padding-top: 30px;
+	}
+	.sub_pakets{
+		max-width: 750px;
+	}
+	.paket {
+		width: 222px;
+	}
+	.paket2 {
+		width: 267px;
+    	box-shadow: 0px -14px 20px -3px rgba(0, 0, 0, 0.1);
+	}
+	.paketHeader{
+		padding-top: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;	
+	}
+	.paket1 h4, .paket3 h4 {
+		font-size: 18px;
+	}
+	.paket2 h4 {
+		font-size: 19px;
+	}
+	.paketContent li{
+		padding-left: 31px;
+		background-size: 11%;
+		font-size: 13px;
+	}
+	.paketContent li span {
+		font-size: 17px;
+	}
+	.paketContent {
+		padding-left: 12px;
+		padding-right: 15px;
+	}
+	#carousel-example-generic ol li {
+		width: 90px;
+		height: 63px;
+	}
+	.etapiRaboti h4{
+		font-size: 20px;
+	}
+	.otziviVideoBlock {
+		text-align: center;
+	}
+	.send{
+		margin: 0 auto;
+		margin-top: -48px;
+	}
+	.otziviTextBlock{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.otziviParagraph{
+		margin-bottom: 50px;
+	}
+	#contact{
+		background-size: cover;
+	}
+	/*---index page---*/
+	/*---about_me page---*/
+	.about_me_block2 .container{
+		padding-right: 15px;
+  		padding-left: 15px;
+	}
+	.about_me_img1{
+		display: none;
+	}
+	.about_me_img1Resp{
+		display: inline;
+	}
+	.about_me_img_resp{
+		text-align: center;
+	}
+	.about_me_block3 .about_me_content_block div {
+		text-align: right;
+		margin-top: 55px;
+		margin-bottom: 0;
+	}
+	/*---end about_me page---*/
+}
+/*end 992px*/
+/*iPad Vertical*/
+@media only screen and (max-width: 767px){
+    /*---index page---*/
+	.paket {
+		margin-top: 17px;
+	}
+	.paket2{
+		box-shadow: none;
+	}
+	.paketContent{
+		background: none!important;
+	}
+	.paketContent li{
+		width: 100%;
+	}
+	.paket,.paket2 {
+		width: 100%;
+	}
+	.paketContent li {
+		padding-left: 43px;
+		background-size: inherit;
+		font-size: 14px;
+	}
+	.paketContent li span {
+		font-size: 18px;
+	}
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border: 0;
+		background-color: rgba(140, 137, 165, 0.86);
+		padding-bottom: 20px;
+	}
+	.numbers {
+		float: none;
+		text-align: center;
+	}
+	.numbers a{
+		line-height: 30px;
+	}
+	
+	.navbar-default.active {
+		background-color: rgba(122, 94, 130, 0.56);
+		border: 0;
+		padding-top: 0px;
+		position: fixed;
+	}
+	.navbar-default.active .navbar-toggle {
+		border: 0 !important;
+		transition: background-color 1s;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.navbar-default.active .navbar-brand > img{
+		width: 70%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.sotrudnichestvo h3 span{
+		margin-top: 10px;
+	}
+	#carousel-example-generic ol li {
+		width: 80px;
+		height: 53px;
+	}
+	.voprosOtvet .ui-accordion .ui-accordion-header{
+		font-size: 20px;
+	}
+	.voprosOtvet .ui-accordion .ui-accordion-content{
+		font-size: 16px;
+	}
+	/*---index page---*/
+	/*--- about_me page---*/
+	.about_me_block2{
+		background-size: inherit;
+	}
+	/*---end about_me page---*/
+	/*---blog page---*/
+	.post h2{
+		line-height: 42px;
+	}
+	/*---end blog page---*/
+}
+/*end iPad Vertical*/
+/*custom media 767px*/
+@media only screen and (max-width: 767px){
+	#wowslider-container1{
+		display: none !important;
+	}
+}
+/*custom media 767px*/
+/*iPhone 6 Plus Horizontal*/
+@media only screen and (max-width: 736px){
+	/*---index page---*/
+		.carousel-control{
+			top: -30px;
+		}
+		
+    /*--end-index page---*/
+}
+/*end iPhone 6 Plus Horizontal*/
+/*iPhone 6 Horizontal*/
+@media only screen and (max-width: 667px){
+	
+}
+/*end iPhone 6 Horizontal*/
+/*Galaxy S5 Horizontal*/
+@media only screen and (max-width: 640px){
+     /*---index page---*/
+    .oboMneImages>img {
+		max-width: 300px;
+	}
+	.oboMneTexture{
+		padding-top: 120px;
+		padding-left: 150px;
+	}
+	.oboMneTexture>img{
+		max-width: 210px;
+	}
+	.etapiRaboti h4 {
+		font-size: 18px;
+	}
+	#carousel-example-generic ol li {
+		width: 70px;
+		height: 43px;
+	}
+	
+	/*---index page---*/
+}
+/*end Galaxy S5 Horizontal*/
+/*iPhone 5 Horizontal*/
+@media only screen and (max-width: 568px){
+    /*---index page---*/
+	.oboMneTexture {
+		padding-top: 120px;
+		padding-left: 110px;
+	}
+	.oboMneTexture>img {
+		max-width: 140px;
+		padding-right: 0;
+	}
+	#carousel-example-generic ol li {
+		width: 60px;
+		height: 33px;
+	}
+	.etapiRaboti h4 {
+		font-size: 17px;
+	}
+	.etapiRaboti h3{
+		font-size: 30px;
+	}
+	.voprosOtvet .ui-accordion .ui-accordion-header {
+		font-size: 18px;
+	}
+	.voprosOtvet .ui-accordion .ui-accordion-content{
+		font-size: 14px;
+		line-height: 24px;
+		padding-top: 0;
+		padding-left: 10px;
+    	padding-right: 0;
+	}
+	/*--end-index page---*/
+}
+/*end iPhone 5 Horizontal*/
+/*custom media 500px*/
+@media only screen and (max-width: 500px){
+	/*---index page---*/
+	#carousel-example-generic ol li {
+		width: 68px;
+    	height: 55px;
+	}
+	.etapiRaboti h4 {
+		font-size: 15px;
+		line-height: 24px;
+		min-height: 120px;
+	}
+	.voprosOtvet .ui-accordion .ui-accordion-header{
+		font-size: 16px;
+    	padding-right: 0;
+	}
+	.voprosOtvet .ui-accordion .ui-accordion-content{
+		font-size: 14px;
+	}
+	.buttons {
+		right: 5%;
+	}
+	.send h3{
+		font-size: 26px;
+	}
+	.send h4{
+		font-size: 18px;
+	}
+	.parallax .parallax2 {
+		font-size: 25px;
+	}
+	.parallax .parallax3 {
+		font-size: 21px;
+		line-height: 24px;
+	}
+	/*--end-index page---*/
+}
+/* end custom media 500px*/
+/*iPhone 6 Plus Vertical*/
+@media only screen and (max-width: 414px){
+	/*---index page---*/
+    .paketContent li{
+		width: 100%;
+		padding-left: 26px;
+		font-size: 13px;
+		background-size: 8%;
+	}
+	.paketContent li span {
+		font-size: 17px;
+	}
+	.send h3{
+		font-size: 24px;
+	}
+	.send h4{
+		font-size: 17px;
+	}
+	/*-end--index page---*/
+	/*---blog page---*/
+	.post .podrobnee{
+		margin: 0 auto;
+		display: block;
+	}
+	.blob_site_bar {
+		padding-top: 20px;
+	}
+	/*---end blog page---*/
+}
+/*end iPhone 6 Plus Vertical*/
+/*iPhone 6 Vertical*/
+@media only screen and (max-width: 375px){
+	/*---index page---*/
+    .send h3{
+		font-size: 22px;
+	}
+	.send h4{
+		font-size: 16px;
+	}
+	.send{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.send p,
+	.send textarea{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.send .cont_submit{
+		font-size: 20px;
+		line-height: 42px;
+	}
+	/*-end--index page---*/
+}
+/*end iPhone 6 Vertical*/
+/*Galaxy S5 Vertical*/
+@media only screen and (max-width: 360px){
+    /*---index page---*/
+	.oboMneImages img {
+		padding-right: 0;
+	}
+	.oboMneImages>img {
+		max-width: 260px;
+	}
+	.oboMneTexture {
+		padding-top: 140px;
+		padding-left: 130px;
+	}
+	.oboMneTexture>img {
+		max-width: 140px;
+		padding-right: 0px;
+	}
+	.parallax .parallax3 {
+		font-size: 19px;
+	}
+	/*--end-index page---*/
+}
+/*end Galaxy S5 Vertical*/
+/*iPhone 5 Vertical*/
+@media only screen and (max-width: 320px){
+	/*---index page---*/
+    .podat_zayavcu{
+		margin: 0 auto;
+		margin-top: 38px;
+		display: block;
+		font-size: 19px;
+		line-height: 57px;
+	}
+	#respSlider{
+		background-position: -640px;
+		padding-right: 20px;
+	}
+	.respProf{
+		line-height: 25px;
+		margin-top: 10px;
+	}
+	.respDesc{
+		line-height: 20px;
+	}
+	/*--end-index page---*/
+}
+/*end iPhone 5 Vertical*/

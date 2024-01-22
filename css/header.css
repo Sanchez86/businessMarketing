@@ -1,0 +1,178 @@
+header{
+    position: relative;
+}
+/* button up */
+  #top {
+    z-index:100;
+    bottom: 0;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    right: 25px; /*отступ от правого кра¤*/
+    width:48px; /*ширина*/
+    height:33px;/*высота*/
+    background-color:rgba(0, 0, 0, 0.69);
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+	text-align:center;
+	transition: height 1s;
+}
+#top div{
+	margin-top:54x;
+}
+#top .up{
+    padding-top: 10px;
+    display: block;
+    font-family: Arial;
+    font-size: 15px;
+    color: #FFF;
+}
+#top i {
+		margin-top:10px;
+        color:#fff;
+        font-size:12px;
+}
+/*end button up*/
+
+/* -----------------  menu -----------------*/
+    /*gamburger*/
+    #navbar{
+        height:auto;
+        transition: background-color 1s;
+    }
+    .navbar-default .navbar-toggle{
+		border: 0 !important;
+        border-color: #cc0000;/* рамка гамбургера*/
+        background-color: inherit; /* фон гамбургера*/
+        transition: background-color 1s;
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus{
+        border-color: #cc0000;/* рамка гамбургера при навидении и в фокусе*/
+        background-color: inherit; /* фон гамбургера при навидении и в фокусе*/
+    }
+    /**/
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color: #ddd;/* цвет горизонтальных полосок*/
+        transition: background-color 1s;
+    }
+    .navbar-default .navbar-toggle:hover .icon-bar{
+		background-color: #333;/* цвет горизонтальных полосок при навидении*/
+	}
+    .navbar-default .navbar-toggle:focus .icon-bar{
+        background-color: #ddd;/* цвет горизонтальных полосок в фокусе*/
+    }
+    /*end gamburger*/
+.navbar-header{
+    margin-right: 4vw!important;
+}    
+
+.navbar{
+	margin-bottom:0;
+	position: absolute;
+    top: 0;
+	width:100%;
+}
+.navbar-default {
+    background-color:inherit;
+    border: 0;
+    padding-top: 35px;
+}
+.navbar-nav > li > a{
+	color:#fff !important;
+    font-size:21px;
+    font-family:Arial;
+	transition: all 1s;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus{
+	 color:#333!important;
+	 transition: all 0.5s;
+ }
+.nav > li{
+    text-align:center;
+    margin-right: 1.2vw;
+}
+.navbar-brand{
+    height: auto;
+	display: none;
+}
+.numbers a{
+    color:#fff!important;
+    transition: all 0.5s;
+    font-size: 18px;
+    font-family: 'Exo2-Regular';
+    line-height: 35px;
+}
+.numbers a:hover,
+.numbersp a:focus{
+    color:#333!important;
+	transition: all 1s;
+}
+.numbers{
+    float: right;
+    text-align: right;
+}
+/*---navbarMini---*/
+#navbarMini{
+	position: relative;
+    padding-top: 42px;
+    padding-bottom: 27px;
+	background-image: url('../images/navbarMiniBg.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+/*---navbarMini---*/
+/* -----------------  End  menu -----------------*/
+@media only screen and (max-width: 1200px){
+    .navbar-header {
+        margin-right: 1vw!important;
+    }
+    .nav > li {
+        text-align: center;
+        margin-right: 0vw;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .navbar-default{
+        padding-top: 10px;
+    }
+    .navbar-nav > li > a{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .numbers a{
+        line-height: 25px;
+    }
+}
+@media only screen and (max-width: 767px){
+    #respSlider{
+		display: block;
+		min-height: 380px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: -150px;
+        padding-top: 160px; 
+	}
+	#respSlider p{
+		text-align: right;
+	}
+    #navbarMini{
+        background-size: inherit;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
